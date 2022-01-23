@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body{
+  font-family:
+  'nanumsquare';
+}
 
 .App-logo {
   height: 40vmin;
