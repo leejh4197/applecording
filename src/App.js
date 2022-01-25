@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Nav from './page/Nav';
+import Test from './page/Test';
 import {Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-    </div>
+    <>
+      <Route path='/' exact component={Nav}></Route>
+      <Route path='/test' exact component={Test}></Route>
+    </>
   );
 }
 
